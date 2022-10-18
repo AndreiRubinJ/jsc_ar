@@ -52,5 +52,8 @@ table, th, td{
 div {
     width: 400px;
     height: 600px;   
+}
+tfoot>tr>td{
+    text-align:right
 }  
 
