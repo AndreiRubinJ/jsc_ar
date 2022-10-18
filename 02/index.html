@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>work02</title>
+</head>
+
+<body>
+    <header>
+        <h3>Make home work 02</h3>
+    </header>
+    <main>
+        <section id="form_home_work">
+            <form action="" method="post" name="test_form">
+                <input type="image" src="./resources/img/Eric-cartman2.png" alt="test_form_icone">
+                <input type="hidden" id="pymentId" name="pymentId" value="01nb">
+                <fieldset>
+                    <legend>Home work 02 FORM example 01</legend>
+                    <p>
+                        <label for="test_form_name">User name:</label>
+                        <input type="text" id="test_form_name" name="test_form_name">
+
+                    </p>
+                    <p>
+                        <label for="test_form_password">User password:</label>
+                        <input type="password" name="test_form_password" id="test_form_password">
+
+                    </p>
+                    <p>
+                        <label for="test_form_status">Status:</label>
+                        <input list="list" name="test_form_status" id="test_form_status">
+                        <datalist id="list">
+                            <option value="New"></option>
+                            <option value="Pending"></option>
+                            <option value="Approved"></option>
+                            <option value="Active"></option>
+                            <option value="Terminated"></option>
+                        </datalist>
+
+                    </p>
+                    <p>
+                        <label for="test_form_user_email">email:</label>
+                        <input type="email" id="test_form_status">
+                    </p>
+                    <p>
+                        <label for="test_form_user_telephone">telephone:</label>
+                        <input type="tel" id="test_form_user_telephone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </p>
+                    <p>
+                        <label for="test_form_user_birth_date">Birth date:</label>
+                        <input type="date" id="test_form_user_birth_date">
+                    </p>
+                    <p>
+                        <label for="test_form_user_input_form_time">Input form time:</label>
+                        <input type="datetime-local" id="test_form_user_input_form_time">
+                    </p>
+                    <p>
+                        <label for="test_form_user_fav_color">Select your favorite color:</label>
+                        <input type="color" value="#f6b73c" id="test_form_user_fav_color">
+                    </p>
+                    <p>
+                        <fieldset>
+                            <legend>Cource type</legend>
+                            <label for="test_form_type_cource_front_end">front end</label>
+                            <input type="checkbox" id="test_form_type_cource_front_end" checked>
+                            <label for="test_form_type_cource_java">Java</label>
+                            <input type="checkbox" id="test_form_type_cource_java">
+                            <label for="test_form_fool_fullstack">full stack</label>
+                            <input type="checkbox" id="test_form_fool_fullstack">
+                            <label for="test_form_fool_cource_node">Node js</label>
+                            <input type="checkbox" id="test_form_fool__node">
+                        </fieldset>
+                    </p>
+                    <p>
+                        <label for="test_form_user_cv">Select your cv file:</label>
+                        <br>
+                        <input type="file" id="test_form_user_cv">
+                    </p>
+                    <p>
+                        <input type="submit" value="Submit" id="test_form_user_submit">
+                        <input type="reset" value="Reset" id="test_form_user_reset">
+                    </p>
+                </fieldset>
+            </form>
+            <form method="get" name="test_form_second">
+                <input type="image" src="./resources/img/Eric-cartman3.png" alt="test_form_icone">
+                <input type="hidden" id="pymentId" name="pymentId" value="02nb">
+                <fieldset>
+                    <legend>Home work 02 FORM example 02</legend>
+                    <p>
+                        <label for="test_form_second_month">Month:</label>
+                        <input type="month" id="test_form_second_month">
+                        <label for="test_form_second_time">Set current time:</label>
+                        <input type="time" id="test_form_second_time">
+                        <label for="test_form_second_week">Set a week:</label>
+                        <input type="week" id="test_form_second_week">
+                    </p>
+                    <p>
+                        <label for="test_form_second_sum">Sum:</label>
+                        <input type="number" id="test_form_second_sum">
+
+                    </p>
+                    <p>
+                        <fieldset>
+                            <legend>Cource type</legend>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label><br>
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </fieldset>
+                    </p>
+                    <p>
+                        <!-- try to using input in lable section  -->
+                        <label for="part">
+                            part (between 10 and 100):
+                            <input type="range" id="part" min="10" max="100" value="25">
+                        </label>
+                    </p>
+                    <p>
+                        <fieldset>
+                            <legend>Search user</legend>
+                            <label for="test_form_second_search">Type user name:</label>
+                            <input type="search" id="test_form_second_search" placeholder="Rubin Andrei">
+                            <input type="submit" value="Serch">
+                        </fieldset>
+                    </p>
+                    <p>
+                        <label for="test_form_second_github">GitHub repo url: </label>
+                        <input type="url" id="test_form_second_github">
+                    </p>
+                    <p>
+                        <input type="button" onclick="alert('Validated!')" value="Click to validate">
+                    </p>
+                    <p>
+                        <label for="test_form_second_select">Speciality:</label>
+                        <select id="test_form_second_select">
+                            <optgroup label="Speciality">
+                                <option value="01">JS</option>
+                                <option value="02">C#</option>
+                                <option value="03">Go</option>
+                                <option value="04">Python</option>
+                                <option value="05" selected>Java</option>
+                            </optgroup>
+                            <optgroup label="Direction">
+                                <option value="06">Front End</option>
+                                <option value="07">Back End</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <section id="table_homework">
+            <div>
+                <table>
+                    <caption>Students</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Student full name</th>
+                            <th>Work status</th>
+                            <th>Cource name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Andrii</td>
+                            <td>Rubin</td>
+                            <td>
+                                <select id="status">
+                                    <option value="00">Not started</option>
+                                    <option value="01">Open</option>
+                                    <option value="02">Progress</option>
+                                    <option value="03">Validate</option>
+                                    <option value="04">Done</option>
+                                    <option value="05">Retruned</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="select">
+                                    <optgroup label="Speciality">
+                                        <option value="01">JS</option>
+                                        <option value="02">C#</option>
+                                        <option value="03">Go</option>
+                                        <option value="04">Python</option>
+                                        <option value="05" selected>Java</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Igar</td>
+                            <td>Burba</td>
+                            <td>
+                                <select id="status">
+                                    <option value="01">Open</option>
+                                    <option value="02">Progress</option>
+                                    <option value="03">Validate</option>
+                                    <option value="04">Done</option>
+                                    <option value="05" selected>Retruned</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="select">
+                                    <optgroup label="Speciality">
+                                        <option value="01">JS</option>
+                                        <option value="02">C#</option>
+                                        <option value="03">Go</option>
+                                        <option value="04">Python</option>
+                                        <option value="05" selected>Java</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Andrii</td>
+                            <td>Petrus</td>
+                            <td>
+                                <select id="status">
+                                    <option value="01">Open</option>
+                                    <option value="02">Progress</option>
+                                    <option value="03">Validate</option>
+                                    <option value="04" selected>Done</option>
+                                    <option value="05">Retruned</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="select">
+                                    <optgroup label="Speciality">
+                                        <option value="01">JS</option>
+                                        <option value="02">C#</option>
+                                        <option value="03">Go</option>
+                                        <option value="04">Python</option>
+                                        <option value="05" selected>Java</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Volodimer</td>
+                            <td>Makitremko</td>
+                            <td>
+                                <select id="status">
+                                    <option value="01">Open</option>
+                                    <option value="02">Progress</option>
+                                    <option value="03" selected>Validate</option>
+                                    <option value="04">Done</option>
+                                    <option value="05">Retruned</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="select">
+                                    <optgroup label="Speciality">
+                                        <option value="01">JS</option>
+                                        <option value="02">C#</option>
+                                        <option value="03">Go</option>
+                                        <option value="04">Python</option>
+                                        <option value="05" selected>Java</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Grigory</td>
+                            <td>Grigirian</td>
+                            <td>
+                                <select id="status">
+                                    <option value="01">Open</option>
+                                    <option value="02" selected>Progress</option>
+                                    <option value="03">Validate</option>
+                                    <option value="04">Done</option>
+                                    <option value="05">Retruned</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="select">
+                                    <optgroup label="Speciality">
+                                        <option value="01">JS</option>
+                                        <option value="02">C#</option>
+                                        <option value="03">Go</option>
+                                        <option value="04">Python</option>
+                                        <option value="05" selected>Java</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" align="right">Count:5</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

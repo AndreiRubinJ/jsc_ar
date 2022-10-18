@@ -1,0 +1,56 @@
+label { 
+    width: 150px;     
+    display: inline-block;
+    text-align: left;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {    
+  margin: 20px;  
+  text-align: center;  
+  font-size: 0.9em;
+  padding: 0.3em;
+
+}
+section,
+form{
+    display: table-cell;
+    padding: 20px;    
+}
+form[name="test_form_second"] {
+    width: 700px;    
+    
+}
+form[name="test_form"] {
+    width: 500px;
+    
+}
+#test_form_second_week,
+#test_form_second_time,
+#test_form_second_month {    
+    margin: 2px; 
+    font-size: 0.9em;
+    padding: 0.3em; 
+    width: 80px;
+}
+
+label[for="test_form_second_week"],
+label[for="test_form_second_time"],
+label[for="test_form_second_month"]{        
+    font-size: 0.9em;
+    padding: 0.3em;    
+    width: 80px;
+
+}
+table, th, td{
+    border: 1px solid rgb(112, 112, 112);
+    border-collapse: collapse;    
+    margin: 0 auto;  
+  }
+
+div {
+    width: 400px;
+    height: 600px;   
+}  
+
