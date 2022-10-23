@@ -5,14 +5,12 @@
 body,html{
     font-family: 'Roboto', sans-serif;
 }
-header{      
-   height: 78px;
+header{         
    padding:17.8px 0;
 }
 
 footer{
-    color: #F2F2F2;
-    height:240px;
+    color: #F2F2F2;    
     text-align: center;    
 }
 p,
@@ -31,8 +29,7 @@ p,
     text-align:right;
     display:inline-block;    
 }
-.storage_space{
-    height: 421px;
+.storage_space{    
     background-color: #FAC960;     
 }
 .storage_space > article{
@@ -50,21 +47,23 @@ p,
     border:0px;
 }
 input,
-button  {    
+button  { 
+       
     font-size: 30px;       
     height:54px;
     border:none; 
-    margin:auto 2px;   
+    margin:auto 2px;
 }
 input{
     width: 560px;
     color: #999999;
     text-indent: 36px;
 }
-button[class="search_btn"]{    
+input[class="search_btn"]{    
     width: 240px;   
     background-color:#A8863D;
-    color:#FFFFFF; 
+    color:#FFFFFF;
+    text-align: left; 
 }
 button[class="friends"]{
     font-size: 17px;
@@ -77,12 +76,8 @@ button[class="friends"]{
     border:1px solid;
     border-color:#758696    
 }
-.mobile_acsess{
-    height: 613px;
-}
 
 .unlimited_space{
-    height: 438px;
     background-color:#D9D9D9;
 }
 
@@ -113,13 +108,11 @@ article img[alt="phone"]{
 
 }
 .tell_friends{
-    height: 313px;
     background-color: #FAC960;
 }
 
 footer .content {    
-    display: table;
-    height:240px;            
+    display: table;    
 }
 footer .content> div{   
     display:table-cell; 
