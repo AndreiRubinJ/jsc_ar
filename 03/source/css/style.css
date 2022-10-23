@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body,html{
+    font-family: 'Roboto', sans-serif;
+}
+header{      
+   height: 78px;
+   padding:17.8px 0;
+}
+
+footer{
+    color: #F2F2F2;
+    height:240px;
+    text-align: center;    
+}
+p,
+.content{        
+    width:940px;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align:left;
+    width: 450px;       
+    display:inline-block;    
+}
+.social_lincs{
+    width: 480px;       
+    text-align:right;
+    display:inline-block;    
+}
+.storage_space{
+    height: 421px;
+    background-color: #FAC960;     
+}
+.storage_space > article{
+    padding:100px 0;    
+    
+}
+.storage_space p {
+    text-align:center;
+    font-size: 44px;
+    color: #8A6D2F;
+}
+.search{               
+    margin:40px auto;
+    padding: 0;
+    border:0px;
+}
+input,
+button  {    
+    font-size: 30px;       
+    height:54px;
+    border:none; 
+    margin:auto 2px;   
+}
+input{
+    width: 560px;
+    color: #999999;
+    text-indent: 36px;
+}
+button[class="search_btn"]{    
+    width: 240px;   
+    background-color:#A8863D;
+    color:#FFFFFF; 
+}
+button[class="friends"]{
+    font-size: 17px;
+    color: #999999;
+    width: 61px;
+    height: 22px;
+    margin: 39px auto;
+    background-color: white;
+    border-radius:3px;
+    border:1px solid;
+    border-color:#758696    
+}
+.mobile_acsess{
+    height: 613px;
+}
+
+.unlimited_space{
+    height: 438px;
+    background-color:#D9D9D9;
+}
+
+article{    
+    padding:81px 0;
+    color:#0000008F;
+    width: 940px;
+    text-align: center;
+
+}
+article p[class="head"]{        
+    font-size: 37px;      
+}
+
+article p[class="descr"]{    
+    margin:32px auto auto 85px;    
+    font-size: 23px;    
+    width:819px;
+}
+
+article img[alt="infinity"]{
+    height: 96px;
+    margin: 60px auto;
+}
+
+article img[alt="phone"]{    
+    margin: 37px 0px 0px;
+
+}
+.tell_friends{
+    height: 313px;
+    background-color: #FAC960;
+}
+
+footer .content {    
+    display: table;
+    height:240px;            
+}
+footer .content> div{   
+    display:table-cell; 
+    align-items: center;    
+    vertical-align: middle;
+    height:240px;    
+}
+a:nth-of-type(even) {    
+    margin:0px 22px;        
+}
+
+footer img[alt="tviter"]{
+    width:17px;  
+    border:none;  
+}
+
+.footer_linc{    
+    margin: 26px auto;
+}
+.social_lincs img{
+    width: 29px;
+}
+
