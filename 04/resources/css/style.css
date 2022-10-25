@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body,html{
+    background-color:#E5E5E5
+}
+
+.wrapper{
+    margin: 108px auto;        
+    width: 1376px;           
+    position: relative;           
+}
+img{
+    position: absolute;
+}
+
+div[class*="card_"]{
+    width: 512px;
+    height: 512px;
+    position: absolute;
+}
+.card_1{
+    background-color: black;
+    position: relative;
+}
+.card_2{
+    background-color:#FFCE22;
+    top: 395px;
+    left: 441px;
+    z-index:1
+}
+.card_3{
+    background-color: white;
+    top: 812px;
+    left: 864px;
+}
+.card_2 > :first-child{
+    width: 512px;    
+    height: 256px;
+    top: 812px;
+    left: 864px;    
+    background-color: blue;  
+}
+.radius{
+    border-radius:360px;
+    background-color:#FFCE22;    
+    position: absolute;
+    width: 445px;    
+    height: 445px;
+    margin: 35.5px 35.5px;    
+}
+img[alt="logo1"]{        
+    transform: rotate(360deg);
+    top:143px;
+    left:60px;
+}
+img[alt="logo2"]{    
+    left:44px;
+    bottom:25px;
+}
+
+.card_1 img[alt="diya"]{
+    top:129px;
+    left:110px;
+
+}
+.card_1 img[alt="flag"]{        
+    top:343px;
+    right: 215px;  
+}
+
+[alt="blue"]{    
+    top:0;
+    left:0;
+}
+
