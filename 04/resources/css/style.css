@@ -31,7 +31,7 @@ div[class^="card_"]{
     left: 441px;
     z-index:1
 }
-.card_3{
+.card_3{    
     background-color: white;
     border-top-style: solid;
     border-bottom-style: solid;
