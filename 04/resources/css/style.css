@@ -16,7 +16,7 @@ img{
     position: absolute;
 }
 
-div[class*="card_"]{
+div[class^="card_"]{
     width: 512px;
     height: 512px;
     position: absolute;
@@ -33,6 +33,10 @@ div[class*="card_"]{
 }
 .card_3{
     background-color: white;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #2137FC;
+    border-bottom-color: #2137FC;
     top: 812px;
     left: 864px;
 }
