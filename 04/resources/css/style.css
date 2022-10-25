@@ -40,13 +40,6 @@ div[class^="card_"]{
     top: 812px;
     left: 864px;
 }
-.card_2 > :first-child{
-    width: 512px;    
-    height: 256px;
-    top: 812px;
-    left: 864px;    
-    background-color: blue;  
-}
 .radius{
     border-radius:360px;
     background-color:#FFCE22;    
@@ -58,7 +51,7 @@ div[class^="card_"]{
 img[alt="logo1"]{        
     transform: rotate(360deg);
     top:144px;
-    left:60px;
+    left:55px;
 }
 img[alt="logo2"]{    
     left:44px;
