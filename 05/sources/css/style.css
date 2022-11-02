@@ -26,7 +26,7 @@ body,html{
 
 }
 .menu-button{
-    display: inline-block;
+    display: b;
     float: right;
     vertical-align: middle;
     line-height: normal;
@@ -236,7 +236,7 @@ h3{
 }
 .for_who .author_header{    
     padding-top: 71px;
-    margin-left: 760px;
+    margin-left: 636px;
 }
 .for_who h2{
     margin-bottom: 16px;     
@@ -290,7 +290,7 @@ button{
     margin: 0 0;
 }
 .check_demo_section{
-    margin-left:508px;
+    margin-left:403px;
     margin-top: 63px;
     display: inline-block;        
 }
@@ -306,7 +306,7 @@ button{
    margin-top: 44px;   
 }
 .conternt_text{
-    display: inline-block;
+    display: block;
     width:611px;
 }
 article.content{
@@ -386,9 +386,7 @@ h3{
 .card:first-child{
     right:10px;    
 }
-.opions_content{
-    
-    margin-left: 125px;
+.opions_content{   
     overflow: hidden;
     margin-bottom:50px;
     display: inline-block;
