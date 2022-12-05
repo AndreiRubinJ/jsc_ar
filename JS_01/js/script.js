@@ -6,10 +6,7 @@ let examples_culc = function () {
         a = parseFloat(prompt('Enter number first number ', '10'));
         b = parseFloat(prompt('Enter number second number ', '5'));
         console.log(a) 
-        console.log(b)
-        console.log(Number.MIN_VALUE)
-        console.log(a >= Number.MIN_VALUE)
-        if (a <= Number.MAX_VALUE && b <= Number.MAX_VALUE)
+        if (!Number.isNaN(a) && !Number.isNaN(b))
             break;
     }
     operation.forEach((option) => {
