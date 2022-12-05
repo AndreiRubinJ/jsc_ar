@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body,html{
+    background-color:#fff
+}
+.example{
+    display: flex;    
+    margin-top: 40px;        
+    justify-content: space-between;    
+    margin-left: 90px;    
+    margin-right: 90px;    
+    align-items: center; 
+    height: 100px;
+    
+}
+.result{    
+    color: blue;    
+    text-align: center; 
+    font-size: 60px;
+    
+}
+button{
+    height: 100px;
+}
+
+
+
+.result.green{
+    justify-items: center;
+    color: #fff;
+    text-shadow: 10px 10px 30px yellow, -10px -10px 30px blue;    
+    -webkit-text-stroke: 2px, yellow ;
+    -webkit-text-fill-color: white;
+    letter-spacing:5px
+}
+
+.result.red{
+    color: #fff;
+    justify-items: center;
+    text-shadow: 10px 10px 30px red, -10px -10px 30px red;
+    -webkit-text-fill-color: white;
+    letter-spacing:5px;
+    font-size: 60px;
+}
+
+
+
