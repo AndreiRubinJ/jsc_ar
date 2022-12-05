@@ -1,10 +1,15 @@
 let operation = ['+', '-', '/', '*', '%'];
+
 let examples_culc = function () {
     let a, b;
     while (true) {
         a = parseFloat(prompt('Enter number first number ', '10'));
         b = parseFloat(prompt('Enter number second number ', '5'));
-        if (a >= 0 && b >= 0)
+        console.log(a) 
+        console.log(b)
+        console.log(Number.MIN_VALUE)
+        console.log(a >= Number.MIN_VALUE)
+        if (a <= Number.MAX_VALUE && b <= Number.MAX_VALUE)
             break;
     }
     operation.forEach((option) => {
