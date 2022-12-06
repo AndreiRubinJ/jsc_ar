@@ -49,8 +49,7 @@ let examples_compare = function () {
         if (a >= 0 && b >= 0)
             break;
     }
-    document.querySelector('.result.compare').innerHTML = a > 20 && b > 30 
-    ? true
-    : false;
+    document.querySelector('.result.compare').innerHTML = (a > 20 && b > 30 );
+    console.log("Done function examples_compare");
 }
 
