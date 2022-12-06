@@ -31,7 +31,7 @@ let examples_name = function () {
 }
 
 let examples_uk = function () {
-    let user_text = prompt('Enter uk or ru ', '').toLowerCase() === 'uk' ? true : false;
+    let user_text = (prompt('Enter uk or ru ', '').toLowerCase()) === 'uk';
     let wrapper = document.querySelector('.result.uk')
     wrapper.innerText = `${user_text}`.toUpperCase();
     wrapper.removeAttribute("class");
@@ -40,6 +40,7 @@ let examples_uk = function () {
     } else {
         wrapper.classList.add('result','uk', 'red');
     }
+    console.log("Done function examples_uk");
 }
 let examples_compare = function () {
     let a, b;
