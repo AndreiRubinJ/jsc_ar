@@ -2,12 +2,18 @@ let operation = ['+', '-', '/', '*', '%'];
 
 let examples_culc = function () {
     let a, b;
-    while (true) {
-        a = parseFloat(prompt('Enter number first number ', '10'));
-        b = parseFloat(prompt('Enter number second number ', '5'));
-        console.log(a) 
+    let message;
+    while (true) {        
+        a = prompt('Enter number first number ', '10');
+        b = prompt('Enter number second number ', '5');
+        message = `value should be an number e.g -100  ... 100 or -1,2 ... -1,2
+        \n\nthe first value is \t${a}\n\nthe second value is \t${b} `;
+        a = parseFloat(a);        
+        b = parseFloat(b);        
         if (!Number.isNaN(a) && !Number.isNaN(b))
             break;
+        else
+            alert(message);    
     }
     operation.forEach((option) => {
         if (option === "+") {
